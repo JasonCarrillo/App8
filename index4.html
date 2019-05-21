@@ -6,7 +6,7 @@
 </head>
 <body>
 <!--Se determina la Localizacion-->
-<div id="ubicacion"></div>
+<div id='ubicacion'></div>
 <script type="text/javascript">
  if(navigator.geolocation){
 	 navigator.geolocation.getCurrentPosition(mostrarUbicacion);
@@ -23,7 +23,7 @@
 <button onClick="cargarmap()">Cargar Mapa</button>
 <script type="text/javascript">
 var x=document.getElementById("demo");
-function cargarmapa(){
+function cargarmap(){
 	navigator.geolocation.getCurrentPosition(showPosition,showError);
 	function showPosition(Position)
 	{
